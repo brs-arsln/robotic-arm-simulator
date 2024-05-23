@@ -24,8 +24,8 @@ t = [0:0.1:2];
 X1 = 0.414; %
 Y1 = 0.196; %
 Z1 = 0.1974; % - GREEN
-% Z1 = 0.118; % - RED
-% Z1 = 0.039; % - BLUE
+Z1 = 0.118; % - RED
+Z1 = 0.039; % - BLUE
 
 T = transl(X1,-Y1, Z1) * trotx(180, "deg");
 qi1 = robot.ikine(T);
@@ -49,11 +49,11 @@ if color == 1 % Red sorting
 elseif color == 2 % Green sorting
     X2 = 0.44136;
     Y2 = -0.2083;
-    Z2 = 0+0.08;
+    Z2 = 0+0.04;
 else % Blue sorting
     X2 = 0.3027599;
     Y2 = -0.2083;
-    Z2 = 0+0.2;
+    Z2 = 0+0.04;
 end
 
 % first loop
