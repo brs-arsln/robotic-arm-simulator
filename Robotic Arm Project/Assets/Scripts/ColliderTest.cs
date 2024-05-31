@@ -32,13 +32,11 @@ public class ColliderTest : MonoBehaviour
     {
         StartCoroutine(TestCoroutineStop());
     }
-
     private void OnTriggerEnter(Collider other)
     {
         CollidedWith = other;
         print(other);
     }
-
     IEnumerator TestCoroutineStart()
     {
         grab = 2;
