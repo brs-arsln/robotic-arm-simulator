@@ -7,6 +7,7 @@ TagManager:
   - sensor1
   - sensor2
   - coloredGround
+  - coloredCube
   layers:
   - Default
   - TransparentFX

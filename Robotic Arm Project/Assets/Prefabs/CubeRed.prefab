@@ -15,10 +15,9 @@ GameObject:
   - component: {fileID: 670376893012962830}
   - component: {fileID: 8229580989372747829}
   - component: {fileID: 2717557636014204003}
-  - component: {fileID: -169008906660621941}
   m_Layer: 0
   m_Name: CubeRed
-  m_TagString: Untagged
+  m_TagString: coloredCube
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -141,16 +140,3 @@ MonoBehaviour:
   sensor2: {fileID: 0}
   speed_1: 0.6
   speed_2: 0.4
---- !u!114 &-169008906660621941
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1740532661832335944}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 861bdb8e9cf8b5e4383aa2fad1f07d85, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  destroyDelay: 5
