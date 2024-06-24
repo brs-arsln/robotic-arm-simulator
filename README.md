@@ -67,8 +67,8 @@ Troubleshooting
 - Check the TCP/IP settings to ensure proper communication between Unity and MATLAB.
 
 Contributors
-- Barış Arslan (2020556007)
-- Alp Bora Korkmaz (2019556044)
+- Barış Arslan 
+- Alp Bora Korkmaz 
 - Advisor: Assistant Professor Dr. Barış Ata
 
 License
